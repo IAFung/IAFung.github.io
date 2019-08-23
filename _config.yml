@@ -1,24 +1,25 @@
-# --- General options --- #
+# --- 通用选项 --- #
 
-# Name of website
+# 网站名
 title: V0dca
 
-# Short description of your site
+# 网站描述
 description: A virtual proof that I'm awesome
 
-# --- Local development options ---
+# --- Local development options --- 本地开发选项
 # If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
 # *** If you're not sure what this mean, then leave this section as it is. Only modify the url and baseurl if you know what you're doing!***
-
-# url is the the website domain URL without a trailing slash
+#如果您的网站是本地托管而不是GitHub，那么您需要取消接下来的两个参数的注释来设置url和baseurl,如果您不确定这是什么意思，那么请保留此部分。 如果您知道自己在做什么，只需修改网址和地址！
+#
+# url is the the website domain URL without a trailing slash url是没有尾部斜杠的网站域名
 #url: "https://example.com"
 
-# baseurl should be an empty string
+# baseurl should be an empty string baseurl应该是一个空字符串
 #baseurl: ""
 
-# --- Navigation bar options --- #
+# --- 导航栏选项 --- #
 
-# List of links in the navigation bar
+# List of links in the navigation bar 导航栏中的链接列表
 navbar-links:
   About Me: "aboutme"
   Resources:
@@ -27,11 +28,14 @@ navbar-links:
   Author's home: "http://deanattali.com"
 
 # Image to show in the navigation bar - image must be a square (width = height)
+#要在导航栏中显示的图像 - 图像必须是正方形（宽度=高度）
 # Remove this parameter if you don't want an image in the navbar
+#如果您不想在导航栏中显示图像，请删除此参数
 avatar: "/img/avatar-icon.png"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
+#如果您想在左上角设置图片而不是标题文字，指定以下参数
 # title-img: /path/to/image
 
 # --- Background colour/image options --- #
